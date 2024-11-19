@@ -12,49 +12,9 @@ public class PlayerController : MonoBehaviour
     public Vector2 direcction;
     public float Speed = 2f;
 
-
-    void ProcesMovement(InputAction.CallbackContext callbackContext)
+    private void OnMove(InputValue inputAction)
     {
-
-        Vector2 movement=callbackContext.ReadValue<Vector2>();
-        animator.SetBool("Forward", true);
-        animator.SetBool("Back", true);
-        animator.SetBool("Right", true);
-        animator.SetBool("Left", true);
-        transform.position = new Vector3(movement.x, transform.position.y, movement.y);
-
+        Vector2 input=inputAction.Get<Vector2>();
     }
-
-
-    void FinishMovement(InputAction.CallbackContext callbackContext)
-    {
-        animator.SetBool("Forward", false);
-        animator.SetBool("Back", false);
-        animator.SetBool("Right", false);
-        animator.SetBool("Left", false);
-
-    }
-
-    void Awake()
-    {
-        playerActions = new PlayerInputActions();
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        playerActions.Player.Enable();
-        playerActions.Player.Move.started += ProcesMovement;
-        playerActions.Player.Move.canceled += FinishMovement;
-        //playerActions.Player.Move.performed += FinishMovement;
-
-        animator = GetComponent<Animator>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-       
-
-    }
+    
 }
