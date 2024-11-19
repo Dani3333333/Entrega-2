@@ -478,6 +478,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 15b3126a34d677642ba6ebad5f688451, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1917987350}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 15b3126a34d677642ba6ebad5f688451, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1917987352}
   m_SourcePrefab: {fileID: 100100000, guid: 15b3126a34d677642ba6ebad5f688451, type: 3}
 --- !u!1 &1917987347 stripped
 GameObject:
@@ -496,8 +499,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbcafa857a11d6f4ebd7fa2ab2d01cbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  direcction: {x: 0, y: 0}
-  Speed: 2
+  speed: 2
 --- !u!95 &1917987349
 Animator:
   serializedVersion: 5
@@ -542,6 +544,36 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0.97, z: 0}
+--- !u!114 &1917987352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917987347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 7acf39fbb14b280479c53c4443f86211, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

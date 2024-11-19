@@ -1,60 +1,55 @@
-using System.Collections;
-using System.Collections.Generic;
+//using System.Collections;
+//using System.Collections.Generic;
+//using UnityEngine;
+//using UnityEngine.InputSystem;
+
+
+//public class PlayerController : MonoBehaviour
+//{
+//    private PlayerInput playerActions;
+//    private Animator animator;
+
+//    public Vector2 direcction;
+//    public float Speed = 2f;
+
+
+
+//}
+
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-
 public class PlayerController : MonoBehaviour
 {
-    private PlayerInputActions playerActions;
-    private Animator animator;
+    private Animator animator; // Referencia al Animator
+    public float speed = 2f;   // Velocidad de movimiento
 
-    public Vector2 direcction;
-    public float Speed = 2f;
-
-
-    void ProcesMovement(InputAction.CallbackContext callbackContext)
-    {
-
-        Vector2 movement=callbackContext.ReadValue<Vector2>();
-        animator.SetBool("Forward", true);
-        animator.SetBool("Back", true);
-        animator.SetBool("Right", true);
-        animator.SetBool("Left", true);
-        transform.position = new Vector3(movement.x, transform.position.y, movement.y);
-
-    }
-
-
-    void FinishMovement(InputAction.CallbackContext callbackContext)
-    {
-        animator.SetBool("Forward", false);
-        animator.SetBool("Back", false);
-        animator.SetBool("Right", false);
-        animator.SetBool("Left", false);
-
-    }
-
-    void Awake()
-    {
-        playerActions = new PlayerInputActions();
-    }
-    // Start is called before the first frame update
     void Start()
     {
-        playerActions.Player.Enable();
-        playerActions.Player.Move.started += ProcesMovement;
-        playerActions.Player.Move.canceled += FinishMovement;
-        //playerActions.Player.Move.performed += FinishMovement;
-
+        // Obtener el componente Animator al inicio
         animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
-       
+        // Capturar entradas del teclado directamente
+        float lateral = 0f;
+        float frontal = 0f;
 
+        if (Keyboard.current.wKey.isPressed) frontal += 1f;
+        if (Keyboard.current.sKey.isPressed) frontal -= 1f;
+        if (Keyboard.current.dKey.isPressed) lateral += 1f;
+        if (Keyboard.current.aKey.isPressed) lateral -= 1f;
+
+        // Normalizar el movimiento para evitar velocidades inconsistentes en diagonales
+        Vector3 moveDirection = new Vector3(lateral, 0, frontal).normalized;
+
+        // Actualizar el Blend Tree en el Animator
+        animator.SetFloat("Frontal", moveDirection.z);
+        animator.SetFloat("Lateral", moveDirection.x);
+
+        // Mover al personaje en la dirección deseada
+        transform.Translate(moveDirection * speed * Time.deltaTime, Space.World);
     }
 }
+
