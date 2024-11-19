@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     private Animator animator; // Referencia al Animator
     public float speed = 2f;   // Velocidad de movimiento
 
-    void Start()kkk
+    void Start()
     {
         // Obtener el componente Animator al inicio
         animator = GetComponent<Animator>();
