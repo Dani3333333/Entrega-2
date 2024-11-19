@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8fca1cc2dcb8ba74e91ac62cec7e6f3a
+guid: bdd523b427568b740bbb021a38de7e57
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -33,7 +33,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: right
+      name: back
       takeName: mixamo.com
       internalID: -203655887218126122
       firstFrame: 0
