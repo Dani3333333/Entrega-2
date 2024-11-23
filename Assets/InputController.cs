@@ -21,6 +21,13 @@ public class InputController : MonoBehaviour
 
         movementController.SetDirection(direction); // Enviar la dirección al MovementController
     }
+    void OnJump(InputValue inputValue)
+    {
+        if (inputValue.isPressed) // Detectar si el botón de salto fue presionado
+        {
+            movementController.Jump(); // Llamar al método Jump en MovementController
+        }
+    }
 
-   
+
 }
