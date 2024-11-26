@@ -9,7 +9,7 @@ public class MovementController : MonoBehaviour
     
     public float jumpForce = 5f; // Fuerza del salto
     public LayerMask groundLayer; // Capa que identifica el suelo
-    public float groundCheckDistance = 0.1f; // Distancia para verificar si está en el suelo
+    public float groundCheckDistance = 0.1f; // Distancia para verificar si está en el suel0
 
     private Vector2 direction; // Dirección de movimiento
     private Rigidbody rb; // Componente Rigidbody para controlar el movimiento físico
