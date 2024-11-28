@@ -7,8 +7,6 @@ public class InputController : MonoBehaviour
 {
     private MovementController movementController; // Referencia al MovementController
 
-    public Vector2 direction;
-
     private void Start()
     {
         movementController = GetComponent<MovementController>(); // Obtener el MovementController
@@ -16,18 +14,7 @@ public class InputController : MonoBehaviour
 
     void OnMove(InputValue inputValue)
     {
-        direction = inputValue.Get<Vector2>(); // Obtener la dirección de entrada del usuario
-        
-
-        movementController.SetDirection(direction); // Enviar la dirección al MovementController
+        Vector2 direction = inputValue.Get<Vector2>(); // Obtener la dirección de entrada del usuario
+        movementController.OnMove(direction); // Enviar la dirección directamente al MovementController
     }
-    void OnJump(InputValue inputValue)
-    {
-        if (inputValue.isPressed) // Detectar si el botón de salto fue presionado
-        {
-            movementController.Jump(); // Llamar al método Jump en MovementController
-        }
-    }
-
-
 }
