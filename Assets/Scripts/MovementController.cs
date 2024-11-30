@@ -4,40 +4,58 @@ using UnityEngine;
 
 public class MovementController : MonoBehaviour
 {
-    public float moveSpeed = 5f; // Velocidad de movimiento del personaje
-    public float rotationSpeed = 700f; // Velocidad de rotación para que el personaje se gire hacia la dirección del movimiento
+    public float moveSpeed = 5f; // Velocidad de movimiento
+    public float rotationSpeed = 700f; // Velocidad de rotación
+    private Rigidbody rb;
 
-    private Vector2 direction; // Dirección de movimiento
-    private Rigidbody rb; // Componente Rigidbody para controlar el movimiento físico
-
-    Vector3 movement;
-
-    public float CurrentSpeed => movement.magnitude / Time.deltaTime / moveSpeed;
+    private Vector3 movementDirection = Vector3.zero; // Dirección de movimiento
+    private bool isMoving = false; // Para controlar si el personaje está en movimiento
 
     private void Start()
     {
-        rb = GetComponent<Rigidbody>(); // Obtener el Rigidbody del personaje
+        rb = GetComponent<Rigidbody>(); // Obtener el Rigidbody para mover al personaje
     }
 
-    public void OnMove(Vector2 inputDirection)
+    // Este método es llamado desde el InputController para actualizar la dirección de movimiento
+    public void SetInputDirection(Vector2 inputDirection)
     {
-        direction = inputDirection; // Actualizar la dirección del movimiento
-
-        if (direction.magnitude > 0) // Si hay alguna dirección de movimiento
+        if (inputDirection.magnitude > 0.1f)  // Solo actualizar si hay una entrada significativa
         {
-            // Calcula el movimiento en el espacio (Vector3)
-            movement = new Vector3(direction.x, 0f, direction.y) * moveSpeed * Time.deltaTime;
-
-            // Mover al personaje en el espacio 3D
-            rb.MovePosition(transform.position + movement);
-
-            // Rotar el personaje en la dirección del movimiento
-            Quaternion toRotation = Quaternion.LookRotation(movement, Vector3.up);
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
+            movementDirection = new Vector3(inputDirection.x, 0, inputDirection.y).normalized;
+            isMoving = true; // El personaje está en movimiento
         }
         else
         {
-            movement = Vector3.zero;
+            movementDirection = Vector3.zero; // Si no hay entrada, detener el movimiento
+            isMoving = false; // El personaje se detiene
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        if (isMoving && movementDirection != Vector3.zero)
+        {
+            // Mover al personaje en la dirección dada
+            Vector3 newPosition = rb.position + movementDirection * moveSpeed * Time.fixedDeltaTime;
+            rb.MovePosition(newPosition);
+
+            // Rotar hacia la dirección en la que se mueve el personaje
+            Quaternion targetRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
+            rb.rotation = Quaternion.RotateTowards(rb.rotation, targetRotation, rotationSpeed * Time.fixedDeltaTime);
+        }
+        else
+        {
+            // Detener el movimiento si no hay dirección
+            rb.velocity = Vector3.zero; // Detener el Rigidbody
+        }
+    }
+
+    // Propiedad para obtener la velocidad actual del personaje
+    public float CurrentSpeed
+    {
+        get
+        {
+            return rb.velocity.magnitude; // Magnitud de la velocidad, que es la "actual" velocidad de movimiento
         }
     }
 }

@@ -12,13 +12,12 @@ public class AnimatorController : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         movementController = GetComponent<MovementController>(); // Obtener el MovementController
-
     }
 
     // Update is called once per frame
     void Update()
     {
+        // Usamos CurrentSpeed para actualizar la animación según la velocidad del personaje
         animator.SetFloat("Frontal", movementController.CurrentSpeed);
-
     }
 }

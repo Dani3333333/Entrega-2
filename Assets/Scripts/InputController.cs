@@ -7,14 +7,19 @@ public class InputController : MonoBehaviour
 {
     private MovementController movementController; // Referencia al MovementController
 
+    public Vector2 direction;
+
     private void Start()
     {
         movementController = GetComponent<MovementController>(); // Obtener el MovementController
     }
 
+    // Método para recibir las entradas de movimiento
     void OnMove(InputValue inputValue)
     {
-        Vector2 direction = inputValue.Get<Vector2>(); // Obtener la dirección de entrada del usuario
-        movementController.OnMove(direction); // Enviar la dirección directamente al MovementController
+        direction = inputValue.Get<Vector2>(); // Obtener la dirección de entrada del usuario
+
+        // Pasar la dirección al MovementController
+        movementController.SetInputDirection(direction);
     }
 }
