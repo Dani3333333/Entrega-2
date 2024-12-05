@@ -11,13 +11,23 @@ public class AI_Enemigo : MonoBehaviour
     public float RangoAtaque = 1.5f; // Distancia para atacar al jugador
     public NavMeshAgent IA; // Componente NavMeshAgent
 
-    public Animator Anim; // Componente Animator
+    private Animator Anim; // Componente Animator
     private bool jugadorDetectado = false; // Para saber si el jugador está en rango
     private bool Golpeando = false; // Para saber si el enemigo está golpeando
 
+    public float Daño = 10f; // Daño que el enemigo inflige al jugador
+
+    private Barra_vida barraVidaJugador; // Referencia al script de la barra de vida del jugador
+    private float tiempoUltimoGolpe = 0f; // Controlar el tiempo entre golpes
+    public float intervaloGolpes = 1f; // Intervalo entre golpes
+
     void Start()
     {
+        // Obtenemos el componente Animator desde el GameObject del enemigo
         Anim = GetComponent<Animator>();
+
+        // Encontrar el componente Barra_vida en el jugador
+        barraVidaJugador = Objetivo.GetComponent<Barra_vida>();
 
         // Aseguramos que la animación inicial es "Idle"
         Anim.SetBool("Caminando", false);
@@ -45,7 +55,7 @@ public class AI_Enemigo : MonoBehaviour
             }
             else
             {
-                Anim.SetBool("Caminando", false); // Deja de caminar cuando el enemigo está cerca de su destino
+                Anim.SetBool("Caminando", false); // Deja de caminar
             }
         }
         else if (distancia <= RangoAtaque) // Si el jugador está en rango de ataque
@@ -55,16 +65,30 @@ public class AI_Enemigo : MonoBehaviour
             Anim.SetBool("Golpeando", true); // Cambia a animación de golpear
             Anim.SetBool("Caminando", false); // Deja de caminar
             IA.isStopped = true; // Detener al enemigo para golpear
+
+            // Comprobar si puede golpear nuevamente
+            if (Time.time >= tiempoUltimoGolpe + intervaloGolpes)
+            {
+                GolpearJugador(); // Llamar al método para aplicar daño
+                tiempoUltimoGolpe = Time.time; // Actualizar el tiempo del último golpe
+            }
         }
         else // Si el jugador está fuera del rango de detección
         {
             jugadorDetectado = false;
             Golpeando = false;
-            Anim.SetBool("Caminando", false); // Asegura que no esté caminando cuando no haya nada que hacer
+            Anim.SetBool("Caminando", false); // Asegura que no esté caminando
             Anim.SetBool("Golpeando", false); // Asegura que no esté golpeando
             IA.SetDestination(transform.position); // Detener al enemigo
             IA.isStopped = true;
         }
     }
 
+    void GolpearJugador()
+    {
+        if (barraVidaJugador != null)
+        {
+            barraVidaJugador.RecibirDaño(Daño); // Quitar vida al jugador
+        }
+    }
 }
