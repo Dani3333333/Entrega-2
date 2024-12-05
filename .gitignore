@@ -71,3 +71,641 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 Assets/Animacions player/Noves animacions/Ch49_nonPBR (1).fbx
+Assets/Hunter_1/Texture/Texture_3.tga.meta
+Assets/Hunter_1/Texture/Texture_3.tga
+Assets/Hunter_1/Texture/T_Weapon_Occlusion.tga.meta
+Assets/Hunter_1/Texture/T_Weapon_Occlusion.tga
+Assets/Hunter_1/Texture/T_Weapon_Normal.tga.meta
+Assets/Hunter_1/Texture/T_Weapon_Normal.tga
+Assets/Hunter_1/Texture/T_Weapon_Metallic.tga.meta
+Assets/Hunter_1/Texture/T_Weapon_Metallic.tga
+Assets/Hunter_1/Texture/T_Weapon_Albedo.tga.meta
+Assets/Hunter_1/Texture/T_Weapon_Albedo.tga
+Assets/Hunter_1/Texture/T_Head_Occlusion.tga.meta
+Assets/Hunter_1/Texture/T_Head_Occlusion.tga
+Assets/Hunter_1/Texture/T_Head_Normal.tga.meta
+Assets/Hunter_1/Texture/T_Head_Normal.tga
+Assets/Hunter_1/Texture/T_Head_Metallic.tga.meta
+Assets/Hunter_1/Texture/T_Head_Metallic.tga
+Assets/Hunter_1/Texture/T_Head_Albedo.tga.meta
+Assets/Hunter_1/Texture/T_Head_Albedo.tga
+Assets/Hunter_1/Texture/T_Fur_Occlusion.tga.meta
+Assets/Hunter_1/Texture/T_Fur_Occlusion.tga
+Assets/Hunter_1/Texture/T_Fur_Normal.tga.meta
+Assets/Hunter_1/Texture/T_Fur_Normal.tga
+Assets/Hunter_1/Texture/T_Fur_Metallic.tga.meta
+Assets/Hunter_1/Texture/T_Fur_Metallic.tga
+Assets/Hunter_1/Texture/T_Fur_ Albedo.tga.meta
+Assets/Hunter_1/Texture/T_Fur_ Albedo.tga
+Assets/Hunter_1/Texture/T_Eyes_Specular.tga.meta
+Assets/Hunter_1/Texture/T_Eyes_Specular.tga
+Assets/Hunter_1/Texture/T_Eyes_Normal.tga.meta
+Assets/Hunter_1/Texture/T_Eyes_Normal.tga
+Assets/Hunter_1/Texture/T_Eyes_Emissive.tga.meta
+Assets/Hunter_1/Texture/T_Eyes_Emissive.tga
+Assets/Hunter_1/Texture/T_Eyes_AO.tga.meta
+Assets/Hunter_1/Texture/T_Eyes_AO.tga
+Assets/Hunter_1/Texture/T_Eyes_Albedo.tga.meta
+Assets/Hunter_1/Texture/T_Eyes_Albedo.tga
+Assets/Hunter_1/Texture/T_Body_Roughness.tga.meta
+Assets/Hunter_1/Texture/T_Body_Roughness.tga
+Assets/Hunter_1/Texture/T_Body_Occlusion.tga.meta
+Assets/Hunter_1/Texture/T_Body_Occlusion.tga
+Assets/Hunter_1/Texture/T_Body_Normal.tga.meta
+Assets/Hunter_1/Texture/T_Body_Normal.tga
+Assets/Hunter_1/Texture/T_Body_Metallic.tga.meta
+Assets/Hunter_1/Texture/T_Body_Metallic.tga
+Assets/Hunter_1/Texture/T_Body_Albedo.tga.meta
+Assets/Hunter_1/Texture/T_Body_Albedo.tga
+Assets/Hunter_1/Texture/T_Body_Albedo(Mix)2.tga.meta
+Assets/Hunter_1/Texture/T_Body_Albedo(Mix)2.tga
+Assets/Hunter_1/Texture/T_Armor_Roughness.tga.meta
+Assets/Hunter_1/Texture/T_Armor_Roughness.tga
+Assets/Hunter_1/Texture/T_Armor_Occlusion.tga.meta
+Assets/Hunter_1/Texture/T_Armor_Occlusion.tga
+Assets/Hunter_1/Texture/T_Armor_Normal.tga.meta
+Assets/Hunter_1/Texture/T_Armor_Normal.tga
+Assets/Hunter_1/Texture/T_Armor_Metallic.tga.meta
+Assets/Hunter_1/Texture/T_Armor_Metallic.tga
+Assets/Hunter_1/Texture/T_Armor_Albedo.tga.meta
+Assets/Hunter_1/Texture/T_Armor_Albedo.tga
+Assets/Hunter_1/Texture/Materials/T_Weapon_Metallic.mat.meta
+Assets/Hunter_1/Texture/Materials/T_Weapon_Metallic.mat
+Assets/Hunter_1/Texture/Materials.meta
+Assets/Hunter_1/Texture.meta
+Assets/Hunter_1/Stand/Standard-2Sided.shader.meta
+Assets/Hunter_1/Stand/Standard-2Sided.shader
+Assets/Hunter_1/Stand.meta
+Assets/Hunter_1/Prefab/SM_weapon .prefab.meta
+Assets/Hunter_1/Prefab/SM_weapon .prefab
+Assets/Hunter_1/Prefab/SK_weapon_3.prefab.meta
+Assets/Hunter_1/Prefab/SK_weapon_3.prefab
+Assets/Hunter_1/Prefab/SK_weapon_2.prefab.meta
+Assets/Hunter_1/Prefab/SK_weapon_2.prefab
+Assets/Hunter_1/Prefab/SK_shoes.prefab.meta
+Assets/Hunter_1/Prefab/SK_shoes.prefab
+Assets/Hunter_1/Prefab/SK_shild.prefab.meta
+Assets/Hunter_1/Prefab/SK_shild.prefab
+Assets/Hunter_1/Prefab/SK_legs.prefab.meta
+Assets/Hunter_1/Prefab/SK_legs.prefab
+Assets/Hunter_1/Prefab/SK_head.prefab.meta
+Assets/Hunter_1/Prefab/SK_head.prefab
+Assets/Hunter_1/Prefab/SK_gloves.prefab.meta
+Assets/Hunter_1/Prefab/SK_gloves.prefab
+Assets/Hunter_1/Prefab/SK_fur.prefab.meta
+Assets/Hunter_1/Prefab/SK_fur.prefab
+Assets/Hunter_1/Prefab/SK_fur .prefab.meta
+Assets/Hunter_1/Prefab/SK_fur .prefab
+Assets/Hunter_1/Prefab/SK_eyes.prefab.meta
+Assets/Hunter_1/Prefab/SK_eyes.prefab
+Assets/Hunter_1/Prefab/SK_dress.prefab.meta
+Assets/Hunter_1/Prefab/SK_dress.prefab
+Assets/Hunter_1/Prefab/SK_belt_3.prefab.meta
+Assets/Hunter_1/Prefab/SK_belt_3.prefab
+Assets/Hunter_1/Prefab/SK_belt_2.prefab.meta
+Assets/Hunter_1/Prefab/SK_belt_2.prefab
+Assets/Hunter_1/Prefab/SK_belt_1.prefab.meta
+Assets/Hunter_1/Prefab/SK_belt_1.prefab
+Assets/Hunter_1/Prefab/SK_bag.prefab.meta
+Assets/Hunter_1/Prefab/SK_bag.prefab
+Assets/Hunter_1/Prefab/Mesh_1.prefab.meta
+Assets/Hunter_1/Prefab/Mesh_1.prefab
+Assets/Hunter_1/Prefab.meta
+Assets/Hunter_1/Mesh_1.prefab.meta
+Assets/Hunter_1/Mesh_1.prefab
+Assets/Hunter_1/Mesh/Separeted_mesh/Weapon/SM_weapon .fbx.meta
+Assets/Hunter_1/Mesh/Separeted_mesh/Weapon/SM_weapon .fbx
+Assets/Hunter_1/Mesh/Separeted_mesh/Weapon/SK_weapon_3.fbx.meta
+Assets/Hunter_1/Mesh/Separeted_mesh/Weapon/SK_weapon_3.fbx
+Assets/Hunter_1/Mesh/Separeted_mesh/Weapon/SK_weapon_2.fbx.meta
+Assets/Hunter_1/Mesh/Separeted_mesh/Weapon/SK_weapon_2.fbx
+Assets/Hunter_1/Mesh/Separeted_mesh/Weapon.meta
+Assets/Hunter_1/Mesh/Separeted_mesh/Head/SK_head.fbx.meta
+Assets/Hunter_1/Mesh/Separeted_mesh/Head/SK_head.fbx
+Assets/Hunter_1/Mesh/Separeted_mesh/Head.meta
+Assets/Hunter_1/Mesh/Separeted_mesh/Fur/SK_fur .fbx.meta
+Assets/Hunter_1/Mesh/Separeted_mesh/Fur/SK_fur .fbx
+Assets/Hunter_1/Mesh/Separeted_mesh/Fur.meta
+Assets/Hunter_1/Mesh/Separeted_mesh/Eyes/SK_eyes.fbx.meta
+Assets/Hunter_1/Mesh/Separeted_mesh/Eyes/SK_eyes.fbx
+Assets/Hunter_1/Mesh/Separeted_mesh/Eyes.meta
+Assets/Hunter_1/Mesh/Separeted_mesh/Body/SK_shoes.fbx.meta
+Assets/Hunter_1/Mesh/Separeted_mesh/Body/SK_shoes.fbx
+Assets/Hunter_1/Mesh/Separeted_mesh/Body/SK_shild.fbx.meta
+Assets/Hunter_1/Mesh/Separeted_mesh/Body/SK_shild.fbx
+Assets/Hunter_1/Mesh/Separeted_mesh/Body/SK_legs.fbx.meta
+Assets/Hunter_1/Mesh/Separeted_mesh/Body/SK_legs.fbx
+Assets/Hunter_1/Mesh/Separeted_mesh/Body/SK_gloves.fbx.meta
+Assets/Hunter_1/Mesh/Separeted_mesh/Body/SK_gloves.fbx
+Assets/Hunter_1/Mesh/Separeted_mesh/Body/SK_fur.fbx.meta
+Assets/Hunter_1/Mesh/Separeted_mesh/Body/SK_fur.fbx
+Assets/Hunter_1/Mesh/Separeted_mesh/Body/SK_dress.fbx.meta
+Assets/Hunter_1/Mesh/Separeted_mesh/Body/SK_dress.fbx
+Assets/Hunter_1/Mesh/Separeted_mesh/Body.meta
+Assets/Hunter_1/Mesh/Separeted_mesh/Armor/SK_belt_3.fbx.meta
+Assets/Hunter_1/Mesh/Separeted_mesh/Armor/SK_belt_3.fbx
+Assets/Hunter_1/Mesh/Separeted_mesh/Armor/SK_belt_2.fbx.meta
+Assets/Hunter_1/Mesh/Separeted_mesh/Armor/SK_belt_2.fbx
+Assets/Hunter_1/Mesh/Separeted_mesh/Armor/SK_belt_1.fbx.meta
+Assets/Hunter_1/Mesh/Separeted_mesh/Armor/SK_belt_1.fbx
+Assets/Hunter_1/Mesh/Separeted_mesh/Armor/SK_bag.fbx.meta
+Assets/Hunter_1/Mesh/Separeted_mesh/Armor/SK_bag.fbx
+Assets/Hunter_1/Mesh/Separeted_mesh/Armor/NewLayer.terrainlayer.meta
+Assets/Hunter_1/Mesh/Separeted_mesh/Armor/NewLayer.terrainlayer
+Assets/Hunter_1/Mesh/Separeted_mesh/Armor.meta
+Assets/Hunter_1/Mesh/Separeted_mesh.meta
+Assets/Hunter_1/Mesh/Mesh_1.fbx.meta
+Assets/Hunter_1/Mesh/Mesh_1.fbx
+Assets/Hunter_1/Mesh/Materials/T_Head_Albedo.mat.meta
+Assets/Hunter_1/Mesh/Materials/T_Head_Albedo.mat
+Assets/Hunter_1/Mesh/Materials/Mat_Pursuer_Weapon.mat.meta
+Assets/Hunter_1/Mesh/Materials/Mat_Pursuer_Weapon.mat
+Assets/Hunter_1/Mesh/Materials/Mat_Pursuer_Body.mat.meta
+Assets/Hunter_1/Mesh/Materials/Mat_Pursuer_Body.mat
+Assets/Hunter_1/Mesh/Materials/Mat_Pursuer_Armor.mat.meta
+Assets/Hunter_1/Mesh/Materials/Mat_Pursuer_Armor.mat
+Assets/Hunter_1/Mesh/Materials/Eyeball_AlbedoGreen.mat.meta
+Assets/Hunter_1/Mesh/Materials/Eyeball_AlbedoGreen.mat
+Assets/Hunter_1/Mesh/Materials/alfa 6.mat.meta
+Assets/Hunter_1/Mesh/Materials/alfa 6.mat
+Assets/Hunter_1/Mesh/Materials.meta
+Assets/Hunter_1/Mesh.meta
+Assets/Hunter_1/Materials/M_Weapon.mat.meta
+Assets/Hunter_1/Materials/M_Weapon.mat
+Assets/Hunter_1/Materials/M_Skirt.mat.meta
+Assets/Hunter_1/Materials/M_Skirt.mat
+Assets/Hunter_1/Materials/M_Head.mat.meta
+Assets/Hunter_1/Materials/M_Head.mat
+Assets/Hunter_1/Materials/M_Fur.mat.meta
+Assets/Hunter_1/Materials/M_Fur.mat
+Assets/Hunter_1/Materials/M_Eyes.mat.meta
+Assets/Hunter_1/Materials/M_Eyes.mat
+Assets/Hunter_1/Materials/M_Body.mat.meta
+Assets/Hunter_1/Materials/M_Body.mat
+Assets/Hunter_1/Materials/M_Armor.mat.meta
+Assets/Hunter_1/Materials/M_Armor.mat
+Assets/Hunter_1/Materials.meta
+Assets/Hunter_1/Hunter_1Settings.lighting.meta
+Assets/Hunter_1/Hunter_1Settings.lighting
+Assets/Hunter_1/Hunter_1.unity.meta
+Assets/Hunter_1/Hunter_1.unity
+Assets/Hunter_1.meta
+Assets/Escena final/Escena final/Escena final.unity
+Assets/Enemic 2.mat.meta
+Assets/Enemic 2.mat
+Assets/Enemic 1.mat.meta
+Assets/Enemic 1.mat
+Assets/Animacions player/Suelo.mat.meta
+Assets/Animacions player/Suelo.mat
+Assets/Animacions player/Prova moviment persoantge.unity.meta
+Assets/Animacions player/Prova moviment persoantge.unity
+Assets/Animacions player/Noves animacions/textures/Ch49_1002_Specular.png.meta
+Assets/Animacions player/Noves animacions/textures/Ch49_1002_Specular.png
+Assets/Animacions player/Noves animacions/textures/Ch49_1002_Normal.png.meta
+Assets/Animacions player/Noves animacions/textures/Ch49_1002_Normal.png
+Assets/Animacions player/Noves animacions/textures/Ch49_1002_Glossiness.png.meta
+Assets/Animacions player/Noves animacions/textures/Ch49_1002_Glossiness.png
+Assets/Animacions player/Noves animacions/textures/Ch49_1002_Diffuse.png.meta
+Assets/Animacions player/Noves animacions/textures/Ch49_1002_Diffuse.png
+Assets/Animacions player/Noves animacions/textures/Ch49_1001_Specular.png.meta
+Assets/Animacions player/Noves animacions/textures/Ch49_1001_Specular.png
+Assets/Animacions player/Noves animacions/textures/Ch49_1001_Normal.png.meta
+Assets/Animacions player/Noves animacions/textures/Ch49_1001_Normal.png
+Assets/Animacions player/Noves animacions/textures/Ch49_1001_Glossiness.png.meta
+Assets/Animacions player/Noves animacions/textures/Ch49_1001_Glossiness.png
+Assets/Animacions player/Noves animacions/textures/Ch49_1001_Diffuse.png.meta
+Assets/Animacions player/Noves animacions/textures/Ch49_1001_Diffuse.png
+Assets/Animacions player/Noves animacions/textures.meta
+Assets/Animacions player/Noves animacions/Running.anim.meta
+Assets/Animacions player/Noves animacions/Running.anim
+Assets/Animacions player/Noves animacions/Left Strafe.anim.meta
+Assets/Animacions player/Noves animacions/Left Strafe.anim
+Assets/Animacions player/Noves animacions/Jumping Up.anim.meta
+Assets/Animacions player/Noves animacions/Jumping Up.anim
+Assets/Animacions player/Noves animacions/Idle.anim.meta
+Assets/Animacions player/Noves animacions/Idle.anim
+Assets/Animacions player/Noves animacions/Falling Idle.anim.meta
+Assets/Animacions player/Noves animacions/Falling Idle.anim
+Assets/Animacions player/Noves animacions.meta
+Assets/Animacions player/MovimentPersoanje.cs.meta
+Assets/Animacions player/MovimentPersoanje.cs
+Assets/Animacions player/LogicaPies.cs.meta
+Assets/Animacions player/LogicaPies.cs
+Assets/Animacions player/Hunter_1/Texture/Texture_3.tga.meta
+Assets/Animacions player/Hunter_1/Texture/Texture_3.tga
+Assets/Animacions player/Hunter_1/Texture/T_Weapon_Occlusion.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Weapon_Occlusion.tga
+Assets/Animacions player/Hunter_1/Texture/T_Weapon_Normal.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Weapon_Normal.tga
+Assets/Animacions player/Hunter_1/Texture/T_Weapon_Metallic.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Weapon_Metallic.tga
+Assets/Animacions player/Hunter_1/Texture/T_Weapon_Albedo.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Weapon_Albedo.tga
+Assets/Animacions player/Hunter_1/Texture/T_Head_Occlusion.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Head_Occlusion.tga
+Assets/Animacions player/Hunter_1/Texture/T_Head_Normal.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Head_Normal.tga
+Assets/Animacions player/Hunter_1/Texture/T_Head_Metallic.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Head_Metallic.tga
+Assets/Animacions player/Hunter_1/Texture/T_Head_Albedo.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Head_Albedo.tga
+Assets/Animacions player/Hunter_1/Texture/T_Fur_Occlusion.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Fur_Occlusion.tga
+Assets/Animacions player/Hunter_1/Texture/T_Fur_Normal.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Fur_Normal.tga
+Assets/Animacions player/Hunter_1/Texture/T_Fur_Metallic.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Fur_Metallic.tga
+Assets/Animacions player/Hunter_1/Texture/T_Fur_ Albedo.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Fur_ Albedo.tga
+Assets/Animacions player/Hunter_1/Texture/T_Eyes_Specular.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Eyes_Specular.tga
+Assets/Animacions player/Hunter_1/Texture/T_Eyes_Normal.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Eyes_Normal.tga
+Assets/Animacions player/Hunter_1/Texture/T_Eyes_Emissive.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Eyes_Emissive.tga
+Assets/Animacions player/Hunter_1/Texture/T_Eyes_AO.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Eyes_AO.tga
+Assets/Animacions player/Hunter_1/Texture/T_Eyes_Albedo.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Eyes_Albedo.tga
+Assets/Animacions player/Hunter_1/Texture/T_Body_Roughness.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Body_Roughness.tga
+Assets/Animacions player/Hunter_1/Texture/T_Body_Occlusion.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Body_Occlusion.tga
+Assets/Animacions player/Hunter_1/Texture/T_Body_Normal.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Body_Normal.tga
+Assets/Animacions player/Hunter_1/Texture/T_Body_Metallic.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Body_Metallic.tga
+Assets/Animacions player/Hunter_1/Texture/T_Body_Albedo.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Body_Albedo.tga
+Assets/Animacions player/Hunter_1/Texture/T_Body_Albedo(Mix)2.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Body_Albedo(Mix)2.tga
+Assets/Animacions player/Hunter_1/Texture/T_Armor_Roughness.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Armor_Roughness.tga
+Assets/Animacions player/Hunter_1/Texture/T_Armor_Occlusion.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Armor_Occlusion.tga
+Assets/Animacions player/Hunter_1/Texture/T_Armor_Normal.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Armor_Normal.tga
+Assets/Animacions player/Hunter_1/Texture/T_Armor_Metallic.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Armor_Metallic.tga
+Assets/Animacions player/Hunter_1/Texture/T_Armor_Albedo.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Armor_Albedo.tga
+Assets/Animacions player/Hunter_1/Texture/Materials/T_Weapon_Metallic.mat.meta
+Assets/Animacions player/Hunter_1/Texture/Materials/T_Weapon_Metallic.mat
+Assets/Animacions player/Hunter_1/Texture/Materials.meta
+Assets/Animacions player/Hunter_1/Texture.meta
+Assets/Animacions player/Hunter_1/Stand/Standard-2Sided.shader.meta
+Assets/Animacions player/Hunter_1/Stand/Standard-2Sided.shader
+Assets/Animacions player/Hunter_1/Stand.meta
+Assets/Animacions player/Hunter_1/Prefab/SM_weapon .prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SM_weapon .prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_weapon_3.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_weapon_3.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_weapon_2.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_weapon_2.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_shoes.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_shoes.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_shild.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_shild.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_legs.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_legs.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_head.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_head.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_gloves.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_gloves.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_fur.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_fur.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_fur .prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_fur .prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_eyes.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_eyes.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_dress.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_dress.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_belt_3.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_belt_3.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_belt_2.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_belt_2.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_belt_1.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_belt_1.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_bag.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_bag.prefab
+Assets/Animacions player/Hunter_1/Prefab/Mesh_1.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/Mesh_1.prefab
+Assets/Animacions player/Hunter_1/Prefab.meta
+Assets/Animacions player/Hunter_1/Mesh_1.prefab.meta
+Assets/Animacions player/Hunter_1/Mesh_1.prefab
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Weapon/SM_weapon .fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Weapon/SM_weapon .fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Weapon/SK_weapon_3.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Weapon/SK_weapon_3.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Weapon/SK_weapon_2.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Weapon/SK_weapon_2.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Weapon.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Head/SK_head.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Head/SK_head.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Head.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Fur/SK_fur .fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Fur/SK_fur .fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Fur.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Eyes/SK_eyes.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Eyes/SK_eyes.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Eyes.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_shoes.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_shoes.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_shild.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_shild.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_legs.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_legs.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_gloves.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_gloves.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_fur.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_fur.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_dress.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_dress.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Armor/SK_belt_3.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Armor/SK_belt_3.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Armor/SK_belt_2.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Armor/SK_belt_2.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Armor/SK_belt_1.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Armor/SK_belt_1.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Armor/SK_bag.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Armor/SK_bag.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Armor/NewLayer.terrainlayer.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Armor/NewLayer.terrainlayer
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Armor.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh.meta
+Assets/Animacions player/Hunter_1/Mesh/Mesh_1.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Mesh_1.fbx
+Assets/Animacions player/Hunter_1/Mesh/Materials/T_Head_Albedo.mat.meta
+Assets/Animacions player/Hunter_1/Mesh/Materials/T_Head_Albedo.mat
+Assets/Animacions player/Hunter_1/Mesh/Materials/Mat_Pursuer_Weapon.mat.meta
+Assets/Animacions player/Hunter_1/Mesh/Materials/Mat_Pursuer_Weapon.mat
+Assets/Animacions player/Hunter_1/Mesh/Materials/Mat_Pursuer_Body.mat.meta
+Assets/Animacions player/Hunter_1/Mesh/Materials/Mat_Pursuer_Body.mat
+Assets/Animacions player/Hunter_1/Mesh/Materials/Mat_Pursuer_Armor.mat.meta
+Assets/Animacions player/Hunter_1/Mesh/Materials/Mat_Pursuer_Armor.mat
+Assets/Animacions player/Hunter_1/Mesh/Materials/Eyeball_AlbedoGreen.mat.meta
+Assets/Animacions player/Hunter_1/Mesh/Materials/Eyeball_AlbedoGreen.mat
+Assets/Animacions player/Hunter_1/Mesh/Materials/alfa 6.mat.meta
+Assets/Animacions player/Hunter_1/Mesh/Materials/alfa 6.mat
+Assets/Animacions player/Hunter_1/Mesh/Materials.meta
+Assets/Animacions player/Hunter_1/Mesh.meta
+Assets/Animacions player/Hunter_1/Materials/M_Weapon.mat.meta
+Assets/Animacions player/Hunter_1/Materials/M_Weapon.mat
+Assets/Animacions player/Hunter_1/Materials/M_Skirt.mat.meta
+Assets/Animacions player/Hunter_1/Materials/M_Skirt.mat
+Assets/Animacions player/Hunter_1/Materials/M_Head.mat.meta
+Assets/Animacions player/Hunter_1/Materials/M_Head.mat
+Assets/Animacions player/Hunter_1/Materials/M_Fur.mat.meta
+Assets/Animacions player/Hunter_1/Materials/M_Fur.mat
+Assets/Animacions player/Hunter_1/Materials/M_Eyes.mat.meta
+Assets/Animacions player/Hunter_1/Materials/M_Eyes.mat
+Assets/Animacions player/Hunter_1/Materials/M_Body.mat.meta
+Assets/Animacions player/Hunter_1/Materials/M_Body.mat
+Assets/Animacions player/Hunter_1/Materials/M_Armor.mat.meta
+Assets/Animacions player/Hunter_1/Materials/M_Armor.mat
+Assets/Animacions player/Hunter_1/Materials.meta
+Assets/Animacions player/Hunter_1/Hunter_1Settings.lighting.meta
+Assets/Animacions player/Hunter_1/Hunter_1Settings.lighting
+Assets/Animacions player/Hunter_1/Hunter_1.unity.meta
+Assets/Animacions player/Hunter_1/Hunter_1.unity
+Assets/Animacions player/Hunter_1.meta
+Assets/Animacions player/Controlador personatge.controller.meta
+Assets/Animacions player/Controlador personatge.controller
+Assets/Animacions player.meta
+Assets/4-Animacions/Walking.fbx.meta
+Assets/4-Animacions/Walking.fbx
+Assets/4-Animacions/jump.fbx.meta
+Assets/4-Animacions/jump.fbx
+Assets/4-Animacions/Happy Walk Backward.fbx.meta
+Assets/4-Animacions/Happy Walk Backward.fbx
+Assets/4-Animacions/Breathing Idle.fbx.meta
+Assets/4-Animacions/Breathing Idle.fbx
+Assets/4-Animacions.meta
+Assets/4-Animacions.meta
+Assets/4-Animacions/Breathing Idle.fbx
+Assets/4-Animacions/Breathing Idle.fbx.meta
+Assets/4-Animacions/Happy Walk Backward.fbx
+Assets/4-Animacions/Happy Walk Backward.fbx.meta
+Assets/4-Animacions/jump.fbx
+Assets/4-Animacions/jump.fbx.meta
+Assets/4-Animacions/Walking.fbx
+Assets/4-Animacions/Walking.fbx.meta
+Assets/Animacions player.meta
+Assets/Animacions player/Controlador personatge.controller
+Assets/Animacions player/Controlador personatge.controller.meta
+Assets/Animacions player/Hunter_1.meta
+Assets/Animacions player/Hunter_1/Hunter_1.unity
+Assets/Animacions player/Hunter_1/Hunter_1.unity.meta
+Assets/Animacions player/Hunter_1/Hunter_1Settings.lighting
+Assets/Animacions player/Hunter_1/Hunter_1Settings.lighting.meta
+Assets/Animacions player/Hunter_1/Materials.meta
+Assets/Animacions player/Hunter_1/Materials/M_Armor.mat
+Assets/Animacions player/Hunter_1/Materials/M_Armor.mat.meta
+Assets/Animacions player/Hunter_1/Materials/M_Body.mat
+Assets/Animacions player/Hunter_1/Materials/M_Body.mat.meta
+Assets/Animacions player/Hunter_1/Materials/M_Eyes.mat
+Assets/Animacions player/Hunter_1/Materials/M_Eyes.mat.meta
+Assets/Animacions player/Hunter_1/Materials/M_Fur.mat
+Assets/Animacions player/Hunter_1/Materials/M_Fur.mat.meta
+Assets/Animacions player/Hunter_1/Materials/M_Head.mat
+Assets/Animacions player/Hunter_1/Materials/M_Head.mat.meta
+Assets/Animacions player/Hunter_1/Materials/M_Skirt.mat
+Assets/Animacions player/Hunter_1/Materials/M_Skirt.mat.meta
+Assets/Animacions player/Hunter_1/Materials/M_Weapon.mat
+Assets/Animacions player/Hunter_1/Materials/M_Weapon.mat.meta
+Assets/Animacions player/Hunter_1/Mesh.meta
+Assets/Animacions player/Hunter_1/Mesh/Materials.meta
+Assets/Animacions player/Hunter_1/Mesh/Materials/alfa 6.mat
+Assets/Animacions player/Hunter_1/Mesh/Materials/alfa 6.mat.meta
+Assets/Animacions player/Hunter_1/Mesh/Materials/Eyeball_AlbedoGreen.mat
+Assets/Animacions player/Hunter_1/Mesh/Materials/Eyeball_AlbedoGreen.mat.meta
+Assets/Animacions player/Hunter_1/Mesh/Materials/Mat_Pursuer_Armor.mat
+Assets/Animacions player/Hunter_1/Mesh/Materials/Mat_Pursuer_Armor.mat.meta
+Assets/Animacions player/Hunter_1/Mesh/Materials/Mat_Pursuer_Body.mat
+Assets/Animacions player/Hunter_1/Mesh/Materials/Mat_Pursuer_Body.mat.meta
+Assets/Animacions player/Hunter_1/Mesh/Materials/Mat_Pursuer_Weapon.mat
+Assets/Animacions player/Hunter_1/Mesh/Materials/Mat_Pursuer_Weapon.mat.meta
+Assets/Animacions player/Hunter_1/Mesh/Materials/T_Head_Albedo.mat
+Assets/Animacions player/Hunter_1/Mesh/Materials/T_Head_Albedo.mat.meta
+Assets/Animacions player/Hunter_1/Mesh/Mesh_1.fbx
+Assets/Animacions player/Hunter_1/Mesh/Mesh_1.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Armor.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Armor/NewLayer.terrainlayer
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Armor/NewLayer.terrainlayer.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Armor/SK_bag.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Armor/SK_bag.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Armor/SK_belt_1.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Armor/SK_belt_1.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Armor/SK_belt_2.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Armor/SK_belt_2.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Armor/SK_belt_3.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Armor/SK_belt_3.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_dress.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_dress.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_fur.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_fur.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_gloves.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_gloves.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_legs.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_legs.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_shild.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_shild.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_shoes.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Body/SK_shoes.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Eyes.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Eyes/SK_eyes.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Eyes/SK_eyes.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Fur.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Fur/SK_fur .fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Fur/SK_fur .fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Head.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Head/SK_head.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Head/SK_head.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Weapon.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Weapon/SK_weapon_2.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Weapon/SK_weapon_2.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Weapon/SK_weapon_3.fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Weapon/SK_weapon_3.fbx.meta
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Weapon/SM_weapon .fbx
+Assets/Animacions player/Hunter_1/Mesh/Separeted_mesh/Weapon/SM_weapon .fbx.meta
+Assets/Animacions player/Hunter_1/Mesh_1.prefab
+Assets/Animacions player/Hunter_1/Mesh_1.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/Mesh_1.prefab
+Assets/Animacions player/Hunter_1/Prefab/Mesh_1.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_bag.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_bag.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_belt_1.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_belt_1.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_belt_2.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_belt_2.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_belt_3.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_belt_3.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_dress.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_dress.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_eyes.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_eyes.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_fur .prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_fur .prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_fur.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_fur.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_gloves.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_gloves.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_head.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_head.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_legs.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_legs.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_shild.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_shild.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_shoes.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_shoes.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_weapon_2.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_weapon_2.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SK_weapon_3.prefab
+Assets/Animacions player/Hunter_1/Prefab/SK_weapon_3.prefab.meta
+Assets/Animacions player/Hunter_1/Prefab/SM_weapon .prefab
+Assets/Animacions player/Hunter_1/Prefab/SM_weapon .prefab.meta
+Assets/Animacions player/Hunter_1/Stand.meta
+Assets/Animacions player/Hunter_1/Stand/Standard-2Sided.shader
+Assets/Animacions player/Hunter_1/Stand/Standard-2Sided.shader.meta
+Assets/Animacions player/Hunter_1/Texture.meta
+Assets/Animacions player/Hunter_1/Texture/Materials.meta
+Assets/Animacions player/Hunter_1/Texture/Materials/T_Weapon_Metallic.mat
+Assets/Animacions player/Hunter_1/Texture/Materials/T_Weapon_Metallic.mat.meta
+Assets/Animacions player/Hunter_1/Texture/T_Armor_Albedo.tga
+Assets/Animacions player/Hunter_1/Texture/T_Armor_Albedo.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Armor_Metallic.tga
+Assets/Animacions player/Hunter_1/Texture/T_Armor_Metallic.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Armor_Normal.tga
+Assets/Animacions player/Hunter_1/Texture/T_Armor_Normal.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Armor_Occlusion.tga
+Assets/Animacions player/Hunter_1/Texture/T_Armor_Occlusion.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Armor_Roughness.tga
+Assets/Animacions player/Hunter_1/Texture/T_Armor_Roughness.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Body_Albedo(Mix)2.tga
+Assets/Animacions player/Hunter_1/Texture/T_Body_Albedo(Mix)2.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Body_Albedo.tga
+Assets/Animacions player/Hunter_1/Texture/T_Body_Albedo.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Body_Metallic.tga
+Assets/Animacions player/Hunter_1/Texture/T_Body_Metallic.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Body_Normal.tga
+Assets/Animacions player/Hunter_1/Texture/T_Body_Normal.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Body_Occlusion.tga
+Assets/Animacions player/Hunter_1/Texture/T_Body_Occlusion.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Body_Roughness.tga
+Assets/Animacions player/Hunter_1/Texture/T_Body_Roughness.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Eyes_Albedo.tga
+Assets/Animacions player/Hunter_1/Texture/T_Eyes_Albedo.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Eyes_AO.tga
+Assets/Animacions player/Hunter_1/Texture/T_Eyes_AO.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Eyes_Emissive.tga
+Assets/Animacions player/Hunter_1/Texture/T_Eyes_Emissive.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Eyes_Normal.tga
+Assets/Animacions player/Hunter_1/Texture/T_Eyes_Normal.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Eyes_Specular.tga
+Assets/Animacions player/Hunter_1/Texture/T_Eyes_Specular.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Fur_ Albedo.tga
+Assets/Animacions player/Hunter_1/Texture/T_Fur_ Albedo.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Fur_Metallic.tga
+Assets/Animacions player/Hunter_1/Texture/T_Fur_Metallic.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Fur_Normal.tga
+Assets/Animacions player/Hunter_1/Texture/T_Fur_Normal.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Fur_Occlusion.tga
+Assets/Animacions player/Hunter_1/Texture/T_Fur_Occlusion.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Head_Albedo.tga
+Assets/Animacions player/Hunter_1/Texture/T_Head_Albedo.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Head_Metallic.tga
+Assets/Animacions player/Hunter_1/Texture/T_Head_Metallic.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Head_Normal.tga
+Assets/Animacions player/Hunter_1/Texture/T_Head_Normal.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Head_Occlusion.tga
+Assets/Animacions player/Hunter_1/Texture/T_Head_Occlusion.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Weapon_Albedo.tga
+Assets/Animacions player/Hunter_1/Texture/T_Weapon_Albedo.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Weapon_Metallic.tga
+Assets/Animacions player/Hunter_1/Texture/T_Weapon_Metallic.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Weapon_Normal.tga
+Assets/Animacions player/Hunter_1/Texture/T_Weapon_Normal.tga.meta
+Assets/Animacions player/Hunter_1/Texture/T_Weapon_Occlusion.tga
+Assets/Animacions player/Hunter_1/Texture/T_Weapon_Occlusion.tga.meta
+Assets/Animacions player/Hunter_1/Texture/Texture_3.tga
+Assets/Animacions player/Hunter_1/Texture/Texture_3.tga.meta
+Assets/Animacions player/LogicaPies.cs
+Assets/Animacions player/LogicaPies.cs.meta
+Assets/Animacions player/MovimentPersoanje.cs
+Assets/Animacions player/MovimentPersoanje.cs.meta
+Assets/Animacions player/Noves animacions.meta
+Assets/Animacions player/Noves animacions/Falling Idle.anim
+Assets/Animacions player/Noves animacions/Falling Idle.anim.meta
+Assets/Animacions player/Noves animacions/Idle.anim
+Assets/Animacions player/Noves animacions/Idle.anim.meta
+Assets/Animacions player/Noves animacions/Jumping Up.anim
+Assets/Animacions player/Noves animacions/Jumping Up.anim.meta
+Assets/Animacions player/Noves animacions/Left Strafe.anim
+Assets/Animacions player/Noves animacions/Left Strafe.anim.meta
+Assets/Animacions player/Noves animacions/Running.anim
+Assets/Animacions player/Noves animacions/Running.anim.meta
+Assets/Animacions player/Noves animacions/textures.meta
+Assets/Animacions player/Noves animacions/textures/Ch49_1001_Diffuse.png
+Assets/Animacions player/Noves animacions/textures/Ch49_1001_Diffuse.png.meta
+Assets/Animacions player/Noves animacions/textures/Ch49_1001_Glossiness.png
+Assets/Animacions player/Noves animacions/textures/Ch49_1001_Glossiness.png.meta
+Assets/Animacions player/Noves animacions/textures/Ch49_1001_Normal.png
+Assets/Animacions player/Noves animacions/textures/Ch49_1001_Normal.png.meta
+Assets/Animacions player/Noves animacions/textures/Ch49_1001_Specular.png
+Assets/Animacions player/Noves animacions/textures/Ch49_1001_Specular.png.meta
+Assets/Animacions player/Noves animacions/textures/Ch49_1002_Diffuse.png
+Assets/Animacions player/Noves animacions/textures/Ch49_1002_Diffuse.png.meta
+Assets/Animacions player/Noves animacions/textures/Ch49_1002_Glossiness.png
+Assets/Animacions player/Noves animacions/textures/Ch49_1002_Glossiness.png.meta
+Assets/Animacions player/Noves animacions/textures/Ch49_1002_Normal.png
+Assets/Animacions player/Noves animacions/textures/Ch49_1002_Normal.png.meta
+Assets/Animacions player/Noves animacions/textures/Ch49_1002_Specular.png
+Assets/Animacions player/Noves animacions/textures/Ch49_1002_Specular.png.meta
+Assets/Animacions player/Prova moviment persoantge.unity
+Assets/Animacions player/Prova moviment persoantge.unity.meta
+Assets/Animacions player/Suelo.mat
+Assets/Animacions player/Suelo.mat.meta
