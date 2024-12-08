@@ -8,7 +8,7 @@ public class LogicaPersonaje1 : MonoBehaviour
     public float velocidadMovimiento = 5.0f;
     public float velocidadRotacion = 200.0f;
 
-    private Animator anim;
+    public Animator anim;
     public float x, y;
 
     // Salto

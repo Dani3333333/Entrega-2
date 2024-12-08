@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 using UnityEngine.UI;
 using TMPro;
 
@@ -20,17 +19,19 @@ public class LogicaNPC : MonoBehaviour
     public GameObject botonMision;
     public GameObject panelNPC;
 
+    private LogicaPersonaje1 jugador; 
+
     // Start is called before the first frame update
     void Start()
     {
         numDeObjetivos = objetivos.Length;
-        textoMision.text = "¿Papá?, eres tú? Creo haber visto a mamá en sueños... Necesito la cura papá, tienes que conseguir la llave de casa antes que nada..." +
-                           
+        textoMision.text = "¿Papá?, eres tú? Creo haber visto a mamá en sueños... Necesito la cura papá, tienes que conseguir la llave de casa antes que nada...";
 
         jugador = GameObject.FindGameObjectWithTag("Player").GetComponent<LogicaPersonaje1>();
         simboloMision.SetActive(true);
         panelNPC.SetActive(false);
     }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.F) && aceptarMision == false && jugador.puedoSaltar == true)
@@ -46,9 +47,7 @@ public class LogicaNPC : MonoBehaviour
         }
     }
 
-
-
-        private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
         {
@@ -58,39 +57,37 @@ public class LogicaNPC : MonoBehaviour
                 panelNPC.SetActive(true);
             }
         }
-        private void OnTriggerExit(Collider other)
-        {
-            if (other.tag == "Player")
-            {
-                jugadorCerca = false;
-                panelNPC.SetActive(false);
-                panelNPC2.SetActive(false);
-            }
-        }
-
-        public void No()
-        {
-            jugador.enabled = true;
-            panelNPC2.SetActive(false);
-            panelNPC.SetActive(true);
-        }
-
-        public void Si()
-        {
-            jugador.enabled = true;
-            aceptarMision = true;
-            for (int i = 0; i < objetivos.Length; i++)
-            {
-                objetivos[i].SetActive(true);
-            }
-            jugadorCerca = false;
-            simboloMision.SetActive(false);
-            panelNPC.SetActive(false);
-            panelNPC2.SetActive(false);
-            panelNPCMision.SetActive(true);
-        }
-
     }
 
-}
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            jugadorCerca = false;
+            panelNPC.SetActive(false);
+            panelNPC2.SetActive(false);
+        }
+    }
 
+    public void No()
+    {
+        jugador.enabled = true;
+        panelNPC2.SetActive(false);
+        panelNPC.SetActive(true);
+    }
+
+    public void Si()
+    {
+        jugador.enabled = true;
+        aceptarMision = true;
+        for (int i = 0; i < objetivos.Length; i++)
+        {
+            objetivos[i].SetActive(true);
+        }
+        jugadorCerca = false;
+        simboloMision.SetActive(false);
+        panelNPC.SetActive(false);
+        panelNPC2.SetActive(false);
+        
+    }
+}
