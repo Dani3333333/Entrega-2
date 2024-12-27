@@ -22,7 +22,7 @@ public class LogicaPersonaje1 : MonoBehaviour
 
     // Apuntar
     private bool apuntando; // Estado de apuntar
-    private bool tieneArma; // Estado de si el personaje tiene el arma
+    public bool tieneArma; // Estado de si el personaje tiene el arma
 
     // Items
     public GameObject nearItem;

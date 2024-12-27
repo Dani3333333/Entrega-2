@@ -7,21 +7,20 @@ public class Disparo : MonoBehaviour
 {
     public GameObject Prefab;
     public Transform firepoint;
+    public LogicaPersonaje1 logicaPersonaje; // Referencia al script LogicaPersonaje1
 
     // Update is called once per frame
     void Update()
     {
-
-        if (Input.GetKeyDown(KeyCode.P))
+        // Solo disparar si el personaje tiene el arma
+        if (logicaPersonaje != null && logicaPersonaje.tieneArma && Input.GetKeyDown(KeyCode.P))
+        {
             ShootOne();
-
-
+        }
     }
 
     private void ShootOne()
     {
-
-        Instantiate(Prefab, firepoint.position, firepoint.rotation); //Hem creat el rot al private void SpawnInPlane         
+        Instantiate(Prefab, firepoint.position, firepoint.rotation);
     }
-
 }
