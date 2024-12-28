@@ -30,6 +30,12 @@ public class LogicaPersonaje1 : MonoBehaviour
     public Transform itemSlot; // Slot donde se posicionará el arma en el personaje
     public Transform WeaponSlot; // Asigna el WeaponSlot del personaje en el Inspector
 
+    //Para el audio cuando camina
+    public AudioSource pasos;
+    private bool Hactivo;
+    private bool Vactivo;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -54,6 +60,35 @@ public class LogicaPersonaje1 : MonoBehaviour
     {
         Movelogic();
         Itemlogic();
+        if (Input.GetButtonDown("Horizontal"))
+        {
+            Hactivo = true;
+            pasos.Play();
+        }
+        if (Input.GetButtonDown("Vertical"))
+        {
+            Vactivo = true;
+            pasos.Play();
+        }
+
+        if (Input.GetButtonUp("Horizontal"))
+        {
+            Hactivo = false;
+            if (Vactivo == false)
+            {
+                pasos.Pause();
+            }
+        }
+
+        if (Input.GetButtonUp("Vertical"))
+        {
+            Vactivo = false;
+            if (Hactivo == false)
+            {
+                pasos.Pause();
+            }
+        }
+
     }
 
     public void Itemlogic()
@@ -99,6 +134,8 @@ public class LogicaPersonaje1 : MonoBehaviour
 
         anim.SetFloat("VelX", x);
         anim.SetFloat("VelY", y);
+
+   
 
         // Salto
         if (puedoSaltar)
