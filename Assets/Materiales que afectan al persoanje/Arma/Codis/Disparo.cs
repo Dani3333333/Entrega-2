@@ -8,8 +8,14 @@ public class Disparo : MonoBehaviour
     public GameObject Prefab;
     public Transform firepoint;
     public LogicaPersonaje1 logicaPersonaje; // Referencia al script LogicaPersonaje1
+    private AudioSource audioSource; // Referencia al AudioSource
 
-    // Update is called once per frame
+    void Start()
+    {
+        // Obtén el componente AudioSource
+        audioSource = GetComponent<AudioSource>();
+    }
+
     void Update()
     {
         // Solo disparar si el personaje tiene el arma
@@ -21,6 +27,13 @@ public class Disparo : MonoBehaviour
 
     private void ShootOne()
     {
+        // Instancia la bala
         Instantiate(Prefab, firepoint.position, firepoint.rotation);
+
+        // Reproduce el sonido de disparo
+        if (audioSource != null)
+        {
+            audioSource.Play();
+        }
     }
 }
