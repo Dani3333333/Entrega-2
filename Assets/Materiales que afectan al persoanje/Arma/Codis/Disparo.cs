@@ -18,8 +18,8 @@ public class Disparo : MonoBehaviour
 
     void Update()
     {
-        // Solo disparar si el personaje tiene el arma
-        if (logicaPersonaje != null && logicaPersonaje.tieneArma && Input.GetKeyDown(KeyCode.P))
+        // Solo disparar si el personaje tiene el arma, está apuntando (Shift) y se presiona el clic izquierdo del ratón
+        if (logicaPersonaje != null && logicaPersonaje.tieneArma && Input.GetKey(KeyCode.LeftShift) && Input.GetMouseButtonDown(0)) 
         {
             ShootOne();
         }
