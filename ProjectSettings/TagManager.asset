@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ObjetivoLlave
   - Terrain
+  - Zombie
   layers:
   - Default
   - TransparentFX
