@@ -7,6 +7,8 @@ public class Bullet : MonoBehaviour
 {
     private Rigidbody _rigidbody;
     public float Speed;
+    public float CantidadDaño; // Daño que inflige la bala
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,5 +19,18 @@ public class Bullet : MonoBehaviour
     private void ApplyVelocity()
     {
         _rigidbody.velocity = transform.forward * Speed;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        // Comprobar si el objeto tiene el tag "Zombie"
+        if (other.CompareTag("Zombie") && other.GetComponent<Barra_de_vida_zombie>())
+        {
+            // Aplicar daño al zombie
+            other.GetComponent<Barra_de_vida_zombie>().RecibirDaño(CantidadDaño);
+
+            // Destruir la bala después de causar daño
+            Destroy(gameObject);
+        }
     }
 }
