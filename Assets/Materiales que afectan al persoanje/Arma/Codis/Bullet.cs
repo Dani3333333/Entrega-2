@@ -24,10 +24,10 @@ public class Bullet : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         // Comprobar si el objeto tiene el tag "Zombie"
-        if (other.CompareTag("Zombie") && other.GetComponent<Barra_de_vida_zombie>())
+        if (other.CompareTag("Zombie") && other.GetComponent<Barra_vida>())
         {
             // Aplicar daño al zombie
-            other.GetComponent<Barra_de_vida_zombie>().RecibirDaño(CantidadDaño);
+            other.GetComponent<Barra_vida>().RecibirDaño(CantidadDaño);
 
             // Destruir la bala después de causar daño
             Destroy(gameObject);
