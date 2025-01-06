@@ -21,6 +21,8 @@ public class AI_Enemigo : MonoBehaviour
     private float tiempoUltimoGolpe = 0f; // Controlar el tiempo entre golpes
     public float intervaloGolpes = 1f; // Intervalo entre golpes
 
+    public AudioSource audioSourceDaño; // Referencia al AudioSource para el sonido de daño
+
     void Start()
     {
         // Obtenemos el componente Animator desde el GameObject del enemigo
@@ -93,7 +95,12 @@ public class AI_Enemigo : MonoBehaviour
         if (Objetivo.CompareTag("Player") && barraVidaJugador != null)
         {
             barraVidaJugador.RecibirDaño(Daño); // Quitar vida al jugador
+
+            // Reproducir el sonido de daño
+            if (audioSourceDaño != null && !audioSourceDaño.isPlaying)
+            {
+                audioSourceDaño.Play();
+            }
         }
     }
 }
-

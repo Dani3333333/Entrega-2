@@ -35,16 +35,9 @@ public class LogicaPersonaje1 : MonoBehaviour
     private bool Hactivo;
     private bool Vactivo;
 
-    private List<Item> inventory;
-    private void Awake()
-    {
-        inventory = new List<Item>();
-    }
+    
 
-    public void AddToInventory(Item item)
-    {
-        inventory.Add(item);
-    }
+   
 
 
     // Start is called before the first frame update
