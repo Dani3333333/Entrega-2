@@ -5,10 +5,12 @@ using UnityEngine;
 
 public class Disparo : MonoBehaviour
 {
-    public GameObject Prefab;
-    public Transform firepoint;
+    public GameObject Prefab; // Prefab de la bala
+    public Transform firepoint; // Punto de origen del disparo
     public LogicaPersonaje1 logicaPersonaje; // Referencia al script LogicaPersonaje1
     private AudioSource audioSource; // Referencia al AudioSource
+
+    public ParticleSystem smokeEffect; // Sistema de partículas para el humo
 
     void Start()
     {
@@ -19,7 +21,7 @@ public class Disparo : MonoBehaviour
     void Update()
     {
         // Solo disparar si el personaje tiene el arma, está apuntando (Shift) y se presiona el clic izquierdo del ratón
-        if (logicaPersonaje != null && logicaPersonaje.tieneArma && Input.GetKey(KeyCode.LeftShift) && Input.GetMouseButtonDown(0)) 
+        if (logicaPersonaje != null && logicaPersonaje.tieneArma && Input.GetKey(KeyCode.LeftShift) && Input.GetMouseButtonDown(0))
         {
             ShootOne();
         }
@@ -34,6 +36,12 @@ public class Disparo : MonoBehaviour
         if (audioSource != null)
         {
             audioSource.Play();
+        }
+
+        // Reproduce el efecto de humo
+        if (smokeEffect != null)
+        {
+            smokeEffect.Play();
         }
     }
 }
